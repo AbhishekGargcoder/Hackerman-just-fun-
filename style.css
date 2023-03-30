@@ -1,0 +1,42 @@
+.body{
+    background-color: black;
+    color:rgb(8, 250, 8);/*RGB: (20, 148, 20)*/
+    filter: saturate(1000%);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 1000;
+}
+.h{
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+input{
+    width: 300px;
+    height: 50px;
+    font-size: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color:rgb(20, 148, 20);
+    filter: saturate((100%));
+    margin:auto;
+}
+button{
+    height: 50px;
+    font-size: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgb(20, 148, 20);
+    filter: saturate(100%);
+}
+
+button:hover {
+    background: rgb(56, 238, 56);
+    background-image: linear-gradient(to bottom, rgb(11, 94, 11), rgb(6, 49, 6));
+
+    background-image: -webkit-linear-gradient(top, rgb(11, 94, 11), rgb(6, 49, 6));
+    background-image: -moz-linear-gradient(top, rgb(11, 94, 11), rgb(6, 49, 6));
+    background-image: -ms-linear-gradient(top, rgb(11, 94, 11), rgb(6, 49, 6));
+    background-image: -o-linear-gradient(top, rgb(11, 94, 11), rgb(6, 49, 6));
+    text-decoration: none;
+}
